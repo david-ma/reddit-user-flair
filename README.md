@@ -70,6 +70,9 @@ I'm getting bored of writing this FAQ, so I'm going to be lazy about this last p
 * The "flair text" can be whatever you want.
 * However, column that says "css class" must match the CSS classes in the CSS that we pasted into your stylesheet.
 
+
+![screenshot](screenshot.png)
+
 Again, leave an issue or [tweet me] if you're having trouble.
 
 Good luck and all the best, /u/frostickle
