@@ -1,0 +1,214 @@
+/*
+ * reddit-user-flair
+ * 
+ * Author: Frostickle
+ * Date: 22-April-2016
+ * Documentation: github.com/david-ma/reddit-user-flair
+ *
+ *******************/
+
+
+/* Hide flair */
+.flair {
+    text-indent: -9999px;
+    margin-right: 3px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    border-width: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: help;
+    border-radius: 0px
+}
+.res-nightmode .flair {
+    text-indent: -9999px;
+    margin-right: 3px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    border-width: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: help;
+    border-radius: 0px
+}
+/* Show the flair text on hover */
+.flair:hover {
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 4px;
+    text-indent: 0;
+    background-image: none;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 3px
+}
+.res-nightmode .flair:hover {
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 4px;
+    text-indent: 0;
+    background-image: none;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 3px
+}
+
+/* The individual websites! */
+.flair-instagram {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -32px 0px;
+}
+
+.res-nightmode .flair-instagram {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -32px 0px;
+}
+
+.flair-deviantart {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -80px 0px;
+}
+
+.res-nightmode .flair-deviantart {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -80px 0px;
+}
+
+.flair-500px {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -16px 0px;
+}
+
+.res-nightmode .flair-500px {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -16px 0px;
+}
+
+.flair-google {
+    background-image: url(%%iconsprite-2%%);
+    background-position: 0px 0px;
+}
+
+.res-nightmode .flair-google {
+    background-image: url(%%iconsprite-2%%);
+    background-position: 0px 0px;
+}
+
+.flair-twitter {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -32px -32px;
+}
+
+.res-nightmode .flair-twitter {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -32px -32px;
+}
+
+.flair-picasa {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -32px -240px;
+}
+
+.res-nightmode .flair-picasa {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -32px -240px;
+}
+
+.flair-wordpress {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -80px -128px;
+}
+
+.res-nightmode .flair-wordpress {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -80px -128px;
+}
+
+.flair-website {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -64px 0px;
+}
+
+.res-nightmode .flair-website {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -64px 0px;
+}
+.flair-facebook {
+    background-image: url(%%iconsprite-1%%);
+    background-position: 0px -32px;
+}
+
+.res-nightmode .flair-facebook {
+    background-image: url(%%iconsprite-1%%);
+    background-position: 0px -32px;
+}
+
+.flair-imgur {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -16px 0px;
+}
+
+.res-nightmode .flair-imgur {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -16px 0px;
+}
+
+.flair-tumblr {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -32px -16px;
+}
+
+.res-nightmode .flair-tumblr {
+    background-image: url(%%iconsprite-1%%);
+    background-position: -32px -16px;
+}
+
+.flair-flickr {
+    background-image: url(%%iconsprite-1%%);
+    background-position: 0px -48px;
+}
+
+.res-nightmode .flair-flickr {
+    background-image: url(%%iconsprite-1%%);
+    background-position: 0px -48px;
+}
+
+.flair-smugmug {
+    background-image: url(%%iconsprite-2%%);
+    background-position: 0px -16px;
+}
+
+.res-nightmode .flair-smugmug {
+    background-image: url(%%iconsprite-2%%);
+    background-position: 0px -16px;
+}
+
+.flair-behance {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -16px -16px;
+}
+
+.res-nightmode .flair-behance {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -16px -16px;
+}
+.flair-1x {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -32px -16px;
+}
+.res-nightmode .flair-1x {
+    background-image: url(%%iconsprite-2%%);
+    background-position: -32px -16px;
+}
